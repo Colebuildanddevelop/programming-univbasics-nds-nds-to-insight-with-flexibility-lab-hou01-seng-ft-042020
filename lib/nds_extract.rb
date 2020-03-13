@@ -98,7 +98,7 @@ def movies_with_directors_set(source)
   array
 end
 
-pp gross_per_studio(flatten_a_o_a(movies_with_directors_set(db)))
+pp flatten_a_o_a(movies_with_directors_set(db))
 
 
 # ----------------    End of Your Code Region --------------------
@@ -110,3 +110,9 @@ def studios_totals(nds)
   movies_with_director_names = flatten_a_o_a(a_o_a_movies_with_director_names)
   return gross_per_studio(movies_with_director_names)
 end
+
+
+
+
+
+
