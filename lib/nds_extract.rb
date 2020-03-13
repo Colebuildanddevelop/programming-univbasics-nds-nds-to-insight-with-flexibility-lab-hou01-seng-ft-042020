@@ -62,6 +62,7 @@ def movies_with_director_key(name, movies_collection)
   array_of_hashes
 end
 
+puts movies_with_director_names("Stephen Spielberg")
 
 def gross_per_studio(collection)
   # GOAL: Given an Array of Hashes where each Hash represents a movie,
