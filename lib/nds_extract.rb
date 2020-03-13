@@ -77,4 +77,4 @@ def studios_totals(nds)
   return gross_per_studio(movies_with_director_names)
 end
 
-puts studios_totals(nds)
+puts studios_totals(db)
