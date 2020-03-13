@@ -84,8 +84,6 @@ def gross_per_studio(collection)
   hash
 end
 
-
-
 def movies_with_directors_set(source)
   # GOAL: For each director, find their :movies Array and stick it in a new Array
   #
@@ -108,12 +106,6 @@ def movies_with_directors_set(source)
   end 
   array
 end
-
-
-
-collection = flatten_a_o_a(movies_with_directors_set(db))
-
-gross_per_studio(collection)
 
 # ----------------    End of Your Code Region --------------------
 # Don't edit the following code! Make the methods above work with this method
