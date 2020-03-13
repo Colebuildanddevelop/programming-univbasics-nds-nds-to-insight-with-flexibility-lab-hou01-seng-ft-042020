@@ -89,7 +89,7 @@ def movies_with_directors_set(source)
   array
 end
 
-movies_with_directors_set(db)
+puts movies_with_directors_set(db)
 
 
 
