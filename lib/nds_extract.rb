@@ -1,4 +1,5 @@
-require 'directors_database'
+$LOAD_PATH.unshift(File.dirname(__FILE__))
+require_relative './directors_database'
 
 # A method we're giving you. This "flattens"  Arrays of Arrays so: [[1,2],
 # [3,4,5], [6]] => [1,2,3,4,5,6].
