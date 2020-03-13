@@ -75,6 +75,7 @@ def gross_per_studio(collection)
     hash[studio_name] += worldwide_gross
     index += 1
   end
+  hash
 end
 
 def movies_with_directors_set(source)
