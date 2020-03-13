@@ -114,7 +114,7 @@ end
 
 collection = flatten_a_o_a(movies_with_directors_set(db))
 
-puts gross_per_studio(collection)
+gross_per_studio(collection)
 
 # ----------------    End of Your Code Region --------------------
 # Don't edit the following code! Make the methods above work with this method
