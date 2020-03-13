@@ -56,10 +56,10 @@ def movies_with_director_key(name, movies_collection)
   array_of_hashes = []
   index = 0
   while movies_collection[index] do
-    
+    array_of_hashes = movie_with_director_name(name, movies_collection[index][:movies])
     index += 1
   end
-  
+  array_of_hashes
 end
 
 
@@ -89,6 +89,12 @@ def movies_with_directors_set(source)
   # Array of Arrays containing all of a director's movies. Each movie will need
   # to have a :director_name key added to it.
 end
+
+
+
+
+
+
 
 # ----------------    End of Your Code Region --------------------
 # Don't edit the following code! Make the methods above work with this method
