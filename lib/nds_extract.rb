@@ -98,7 +98,7 @@ def movies_with_directors_set(source)
   array
 end
 
-pp movies_with_directors_set(db)
+pp fatten_a_o_a(movies_with_directors_set(db))
 
 
 
