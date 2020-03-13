@@ -100,7 +100,7 @@ def movies_with_directors_set(source)
   array
 end
 
-collection = flatten_a_o_a(movies_with_directors_set(db))[0]
+collection = flatten_a_o_a(movies_with_directors_set(db))
 puts gross_per_studio(collection)
 
 # ----------------    End of Your Code Region --------------------
