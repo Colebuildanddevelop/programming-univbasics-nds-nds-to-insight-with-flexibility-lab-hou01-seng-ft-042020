@@ -62,8 +62,8 @@ def movies_with_director_key(name, movies_collection)
     index += 1 
   end
   array
-  
 end
+
 
 
 def gross_per_studio(collection)
