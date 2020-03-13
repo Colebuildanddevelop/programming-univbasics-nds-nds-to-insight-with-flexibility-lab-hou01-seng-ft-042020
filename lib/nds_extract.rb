@@ -79,9 +79,8 @@ def gross_per_studio(collection)
   while collection[index] do 
     studio_name = collection[index][:studio]
     worldwide_gross = collection[index][:worldwide_gross]
-    hash[studio_name] += worldwide_gross
     index += 1
-    puts hash
+    puts worldwide_gross
   end
   hash
 end
