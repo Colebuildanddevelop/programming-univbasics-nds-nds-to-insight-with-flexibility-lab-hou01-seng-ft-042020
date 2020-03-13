@@ -1,5 +1,5 @@
-# Provided, don't edit
-require 'directors_database'
+$LOAD_PATH.unshift(File.dirname(__FILE__))
+require_relative './directors_database'
 
 db = directors_database
 pp db
