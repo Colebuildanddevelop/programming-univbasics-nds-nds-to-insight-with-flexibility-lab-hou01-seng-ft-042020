@@ -80,6 +80,7 @@ def gross_per_studio(collection)
       hash[studio_name] += worldwide_gross
     else
       hash[studio_name] = worldwide_gross
+    end
   end
   hash
 end
