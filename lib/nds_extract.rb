@@ -98,7 +98,7 @@ def movies_with_directors_set(source)
   array
 end
 
-pp flatten_a_o_a(movies_with_directors_set(db))
+pp flatten_a_o_a(movies_with_directors_set(db))[0]
 
 
 # ----------------    End of Your Code Region --------------------
