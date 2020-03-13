@@ -54,16 +54,17 @@ def movies_with_director_key(name, movies_collection)
   index = 0
   array = []
   while movies_collection[index] do
-    director_name = movies_collection[index][:name]
-    movie_list = movies_collection[index][:movies]
-    array << movie_with_director_name(director_name, movie_list)
-  
+    hash = {
+      :director_name => name,
+      movies_collection[index]
+    }
+    array << hash
     index += 1 
   end
   array
   
 end
-pp db[0][:movies]
+
 
 def gross_per_studio(collection)
   # GOAL: Given an Array of Hashes where each Hash represents a movie,
