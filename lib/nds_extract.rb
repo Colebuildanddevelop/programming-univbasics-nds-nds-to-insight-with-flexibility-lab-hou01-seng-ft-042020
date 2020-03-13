@@ -54,11 +54,8 @@ def movies_with_director_key(name, movies_collection)
   index = 0
   array = []
   while movies_collection[index] do
-    hash = {
-      :director_name => name,
-      :movies => movies_collection[index]
-    }
-    array << hash
+    movies_collection[:director_name] = name
+    array << movies_collection[index]
     index += 1 
   end
   array
