@@ -61,7 +61,7 @@ def movies_with_director_key(name, movies_collection)
   array
 end
 
-movies_with_director_key('Stephen SpielBerg', db[0][:movies])
+puts movies_with_director_key('Stephen SpielBerg', db[0][:movies])
 
 def gross_per_studio(collection)
   # GOAL: Given an Array of Hashes where each Hash represents a movie,
