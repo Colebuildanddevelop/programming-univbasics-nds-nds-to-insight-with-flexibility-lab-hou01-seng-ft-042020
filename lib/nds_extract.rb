@@ -72,11 +72,9 @@ def gross_per_studio(collection)
   while collection[index] do 
     studio_name = collection[index][:studio]
     worldwide_gross = collection[index][:worldwide_gross]
-    hash[:studio] += worldwide_gross
+    hash[studio_name] += worldwide_gross
     index += 1
   end
-  
-  
 end
 
 def movies_with_directors_set(source)
@@ -101,9 +99,6 @@ def movies_with_directors_set(source)
 end
 
 pp gross_per_studio(flatten_a_o_a(movies_with_directors_set(db)))
-
-
-
 
 
 # ----------------    End of Your Code Region --------------------
