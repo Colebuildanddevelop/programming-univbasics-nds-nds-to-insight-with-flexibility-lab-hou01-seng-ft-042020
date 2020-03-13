@@ -55,7 +55,10 @@ def movies_with_director_key(name, movies_collection)
   
   array_of_hashes = []
   index = 0
-  while movies_collection[index ]
+  while movies_collection[index] do
+    
+    index += 1
+  end
   
 end
 
