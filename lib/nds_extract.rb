@@ -54,7 +54,6 @@ def movies_with_director_key(name, movies_collection)
   index = 0
   array = []
   while movies_collection[index] do
-    puts movies_collection[index]
     movies_collection[index][:director_name] = name
     array << movies_collection[index]
     index += 1 
